@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "uk-general-election-24"
+version = "0.1.0"
+description = ""
+authors = ["James Palmer <jamesgpalmer@live.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+bs4 = "^0.0.2"
+pandas = "^2.2.2"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.5"
+number-parser = "^0.3.2"
+plotly = "^5.22.0"
+geopandas = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
